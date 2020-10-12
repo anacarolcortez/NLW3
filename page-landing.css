@@ -15,20 +15,6 @@
     height: 16vh;
 }
 
-.visit a{
-    width: 6rem;
-    height: 6rem;
-    background-color: #ffd666;
-    border: none;
-    border-radius: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-
-
 #logo{
     animation-delay: 50ms;
 }
@@ -46,5 +32,20 @@
 }
 
 .visit a{
+    width: 6rem;
+    height: 6rem;
+    background-color: #ffd666;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
     animation-delay: 250ms;
+    transition: background-color 200ms;
+}
+
+.visit a:hover {
+    background-color: #96feff;
 }
