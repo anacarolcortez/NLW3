@@ -1,4 +1,58 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+}
+
 body {
+    height: 100vh;
     color: whitesmoke;
-    background-color: #73C2FB;
+    background-image: url("./public/images/bg.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body, input, button, textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+/*
+em: baseia o tamanho no elemento pai
+rem: baseia o tamanho na root, que é a tag <html>
+*/
+
+
+#page-landing{
+    background: linear-gradient(320deg, #29b6d1 0%, #00c7c7 100%);
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#container{
+    margin: auto;
+}
+
+.location, .slogan, .visit p{
+    height: 16vh;
+}
+
+.visit a{
+    width: 6rem;
+    height: 6rem;
+    background-color: #ffd666;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
