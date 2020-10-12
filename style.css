@@ -11,9 +11,6 @@
 body {
     height: 100vh;
     color: whitesmoke;
-    background-image: url("./public/images/bg.svg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 body, input, button, textarea {
@@ -27,70 +24,3 @@ body, input, button, textarea {
 em: baseia o tamanho no elemento pai
 rem: baseia o tamanho na root, que é a tag <html>
 */
-
-
-#page-landing{
-    background: linear-gradient(320deg, #29b6d1 0%, #00c7c7 100%);
-    min-height: 100vh;
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-
-#container{
-    margin: auto;
-    width: 90%;
-}
-
-.location, .slogan, .visit p{
-    height: 16vh;
-}
-
-.visit a{
-    width: 6rem;
-    height: 6rem;
-    background-color: #ffd666;
-    border: none;
-    border-radius: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-/*animações*/
-@keyframes up {
-    from {
-        opacity: 0;
-        transform: translateY(16px);
-    } to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.animate-up{
-    animation-name: up;
-    animation-duration: 300ms;
-    animation-fill-mode: backwards;
-}
-
-#logo{
-    animation-delay: 50ms;
-}
-
-.location{
-    animation-delay: 100ms;
-}
-
-#slogan {
-    animation-delay: 150ms;
-}
-
-.visit p{
-    animation-delay: 200ms;
-}
-
-.visit a{
-    animation-delay: 250ms;
-}

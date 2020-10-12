@@ -1,0 +1,50 @@
+#page-landing{
+    background: linear-gradient(320deg, #29b6d1 0%, #00c7c7 100%);
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#container{
+    margin: auto;
+    width: 90%;
+}
+
+.location, .slogan, .visit p{
+    height: 16vh;
+}
+
+.visit a{
+    width: 6rem;
+    height: 6rem;
+    background-color: #ffd666;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+#logo{
+    animation-delay: 50ms;
+}
+
+.location{
+    animation-delay: 100ms;
+}
+
+#slogan {
+    animation-delay: 150ms;
+}
+
+.visit p{
+    animation-delay: 200ms;
+}
+
+.visit a{
+    animation-delay: 250ms;
+}
