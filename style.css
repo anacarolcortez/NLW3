@@ -74,3 +74,23 @@ rem: baseia o tamanho na root, que é a tag <html>
     animation-duration: 300ms;
     animation-fill-mode: backwards;
 }
+
+#logo{
+    animation-delay: 50ms;
+}
+
+.location{
+    animation-delay: 100ms;
+}
+
+#slogan {
+    animation-delay: 150ms;
+}
+
+.visit p{
+    animation-delay: 200ms;
+}
+
+.visit a{
+    animation-delay: 250ms;
+}
