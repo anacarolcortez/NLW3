@@ -4,4 +4,6 @@ Aplicativo desenvolvido durante a Next Level Week 3, da Rocketseat, em HTML, CSS
 ![Print do App](https://github.com/anacarolcortez/NLW3/blob/main/Print_Happy.png)
 <br/>
 Biblioteca de Mapa: https://leafletjs.com/
+<br/>
+![Print do Mapa](https://github.com/anacarolcortez/NLW3/blob/main/Print_Happy_Map.png)
 
