@@ -39,6 +39,10 @@
 
                     <div class="map-container">
                         <div id="mapid"></div>
+
+                        <input type="hidden" name="lat" required>
+                        <input type="hidden" name="lng" required>
+
                         <footer>
                             <a href="#" id="select-point">
                                 Clique no mapa para adicionar a localização
@@ -48,25 +52,30 @@
                     
                     <div class="input-block">
                         <label for="name">Nome</label>
-                        <input id="name" name="name" type="text">
+                        <input id="name" name="name" type="text" required>
                     </div>
 
                     <div class="input-block">
                         <label for="about">Sobre<span>(máx 300 caracteres)</span></label>
-                        <textarea id="about" name="about" type="text"></textarea>
+                        <textarea id="about" name="about" type="text" required></textarea>
                     </div>
 
                     <div class="input-block">
                         <label for="whatsapp">Número de whatsapp</label>
-                        <input id="whatsapp" name="whatsapp" type="text">
+                        <input id="whatsapp" name="whatsapp" type="text" required>
                     </div>
 
                     <div class="input-block images">
                         <label for="images">Foto</label>
+                        
                         <div class="images-upload" id="images">
-                            <input name="images" placeholder="Cole o link da foto aqui">
+                            <div class="new-upload">
+                                <input name="images" placeholder="Cole o link da foto aqui" type="link" required>
+                                <span onclick="deletePhotoField(event)"><img src="./public/images/red-x.svg" alt="Remover foto"></span>
+                            </div>                            
                         </div>
-                        <button type="button">
+                        
+                        <button onclick="addPhotoField()" type="button">
                             <img src="public/images/plus.svg" alt="Adicione outra imagem">
                         </button>
                     </div>
@@ -77,17 +86,17 @@
 
                     <div class="input-block">
                         <label for="instructions">Instruções</label>
-                        <textarea id="instructions" name="instructions" type="text"></textarea>
+                        <textarea id="instructions" name="instructions" type="text" required></textarea>
                     </div>
 
                     <div class="input-block">
                         <label for="opening_hours">Horário de visitas</label>
-                        <input id="opening_hours" name="opening_hours" type="text">
+                        <input id="opening_hours" name="opening_hours" type="text" required>
                     </div>
 
                     <div class="input-block">
                         <label for="open_on_weekends">Atende fim de semana?</label>
-                        <input type="hidden" id="open_on_weekends" name="open_on_weekends" value="1">
+                        <input type="hidden" id="open_on_weekends" name="open_on_weekends" value="1" required>
                     </div>
 
                     <div class="button-select">
