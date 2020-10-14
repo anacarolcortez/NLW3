@@ -1,0 +1,18 @@
+#create-orphanage{
+    display: flex;
+    min-height: 100vh;
+}
+
+main{
+    flex:1;
+}
+
+.map-container{
+    margin: 0 0 4rem;
+}
+
+.map-container footer{
+    border-radius: 0 0 2rem 2rem;
+    background-color: #ebf3f5;
+}
+
