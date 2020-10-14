@@ -48,3 +48,13 @@ function deletePhotoField(event) {
 
     span.parentNode.remove()
 }
+
+function selectBtn(event) {
+    document.querySelectorAll(".button-select button").forEach( function(button) {
+        button.classList.remove("active")
+    })
+
+    const btn = event.currentTarget
+
+    btn.classList.add("active")
+}

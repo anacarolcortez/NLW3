@@ -56,8 +56,7 @@ fieldset legend {
 }
 
 .input-block input:focus,
-.input-block textarea:focus,
-.button-select button:focus {
+.input-block textarea:focus {
     border: 1px solid darkblue;
 }
 
@@ -120,6 +119,6 @@ fieldset legend {
     cursor: pointer;
 }
 
-button.active {
+.button-select .active {
     border: 1px solid darkblue;
 }
