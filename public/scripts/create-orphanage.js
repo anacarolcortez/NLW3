@@ -57,4 +57,8 @@ function selectBtn(event) {
     const btn = event.currentTarget
 
     btn.classList.add("active")
+
+    const input = document.querySelector('[name="open_on_weekends"]')
+
+    input.value = btn.dataset.value
 }
