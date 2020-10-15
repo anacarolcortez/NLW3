@@ -92,3 +92,21 @@ a.create-orphanage:hover{
 .leaflet-container {
     z-index: 5;
 }
+
+footer button {
+    margin-top: 2rem;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 1.6rem;
+    background: #12AFCB;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+footer button:hover{
+    background-color: #17D6EB;
+}

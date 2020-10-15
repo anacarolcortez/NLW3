@@ -13,14 +13,14 @@ L
 .addTo(map)
 
 const icon = L.icon({
-    iconUrl: '../../public/images/map-marker.svg',
+    iconUrl: './images/map-marker.svg',
     iconSize: [58, 68],
     iconAnchor: [29, 68],
     popupAnchor: [170,2]
 })
 
 L
-.marker([-23.5428164,-46.6416237], {icon: icon})
+.marker([-23.5428164,-46.6416237], {icon})
 .addTo(map)
 
 function selectImage(event) {
