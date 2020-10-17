@@ -107,12 +107,20 @@ main{
     color: #4D6F80;
 }
 
-.open-details .open-on-weekends {
+.open-details .open-on-weekends.opened {
     background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
     border: 1px solid #A1E9C5;
     box-sizing: border-box;
     border-radius: 2rem;
     color: #529685;
+}
+
+.open-details .open-on-weekends.closed {
+    background: linear-gradient(154.16deg, #FCF0F4 7.85%, #FFFFFF 91.03%);
+    border: 1px solid #FFBCD4;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    color: #FF699D;
 }
 
 .open-details img {
@@ -131,7 +139,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    text-decoration: none;
     transition: background-color .2s;
 }
 

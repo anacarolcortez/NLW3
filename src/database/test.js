@@ -22,7 +22,7 @@ database.then(async (db) => {
         open_on_weekends: "1"
     })
     
-    //await db.all('SELECT * FROM orphanages')
+    
 
     //await db.all('SELECT * FROM orphanages WHERE id = 1')
 
