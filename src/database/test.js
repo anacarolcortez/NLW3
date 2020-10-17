@@ -22,11 +22,10 @@ database.then(async (db) => {
         open_on_weekends: "1"
     })
     
-    const allOprhanages = await db.all('SELECT * FROM orphanages')
-    console.log(allOprhanages)
+    //await db.all('SELECT * FROM orphanages')
 
-    const selectedOprhanages = await db.all('SELECT * FROM orphanages WHERE id = 1')
-    //console.log(selectedOprhanages)
+    //await db.all('SELECT * FROM orphanages WHERE id = 1')
 
+    //await db.run('DELETE FROM orphanages WHERE id = 3')
     
 })
